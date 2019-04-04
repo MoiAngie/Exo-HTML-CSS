@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Arvo';
+  }
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #f5f5f5;
+}
+
+#htr {
+  min-height: calc(100vh-200px);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+}
+
+/*   pour la navbar  */
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-top{
+  padding-top: 15px;
+}
+
+.menu a {
+  color: #f5f5f5;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+
+/*  pour le jumbotron  */
+
+#home {
+  background-image: url(../images/hero-image.jpg);
+  width: 100%;
+  height: 800px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3%;
+  margin: 0 auto;
+  font-size: 70px;
+  width: 50%;
+  height: auto;
+}
+
+#home p, #who p, #get-involved p {
+  text-align: center;
+  margin: 3vh 10vh 10vh 10vh;
+  line-height: 1.6;
+}
+
+#home p{
+  width: 60%;
+  height: auto;
+}
+
+#home a {
+  color: white;
+}
+
+.button-h {
+  background-color: #F74C3C;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.5;
+  width: 10%;
+  height: 5vh;
+  padding-top: 10px;
+  margin-top: 10vh;
+}
+
+.button-h:hover {
+  background-color: #D17261;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+/*  pour la div who  -- qui sommes nous  */
+
+.blason {
+  margin: 5vh auto 0;
+}
+
+h2 {
+  color: #F74C3C;
+  text-align: center;
+  font-size: 40px;
+  margin: 15px auto;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+hr {
+  border-color: #D17261;
+  width: 10%;
+}
+
+#who p {
+  color: black;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.red {
+  color: #F74C3C;
+}
+
+/*  pour la div get involved -- engagements  */
+
+.trio {
+  display: grid;
+  grid-template-columns: 1fr 25% 25% 25% 1fr;
+  grid-gap: 10px;
+  padding: 20px 0;
+}
+
+.students {
+  grid-column: 2 / span 1;
+}
+
+.educators {
+  grid-column: 3 / span 1;
+}
+
+.sponsors {
+  grid-column: 4 / span 1;
+}
+
+.fa {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.fa-user {
+  padding-left: 3px;
+  padding-top: 7px;
+}
+
+.fa-pencil-alt {
+  padding-left: 5px;
+  padding-top: 11px;
+}
+
+.fa-money-bill-alt {
+  padding-left: 3px;
+  padding-top: 15px;
+}
+
+h3 {
+  color: #F74C3C;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#get-involved p {
+  padding: 0;
+  margin: 10px;
+  min-height: 20%;
+}
+
+#get-involved a {
+  color: #F74C3C;
+}
+
+
+/*  pour le footer  */
+
+footer {
+  background-color: #F74C3C;
+  width: 100%;
+  height: 200px;
+  margin-top: 5%;
+}
+
+footer > img {
+  position: relative;
+  bottom: -50%;
+  left: 12%;
+}
