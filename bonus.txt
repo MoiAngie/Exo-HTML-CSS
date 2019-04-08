@@ -1,0 +1,4 @@
+BONUS LIBRES:
+
+> hover sur tous les boutons cliquables
+> liens sur la navbar pour réorienter dans la page.

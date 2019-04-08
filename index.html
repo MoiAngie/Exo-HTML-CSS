@@ -13,18 +13,19 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/fontawesome.min.css">
 
-    <!-- trouvé sur github pour tester  -->
+    <!-- trouvé sur github pour tester parce que sans les icones ne s'affichent pas, même avec la dernière version  :( -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
     <!-- Custom styles for this template -->
-    <!--<link href="css/reset.css" rel="stylesheet">-->
+   <link href="css/reset.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
   </head>
 
   <body>
+<div id="htr">
 
-    <nav class="cap"><!-- Mon code ici pour la navbar -->
+    <nav id="nav" class="cap topnav"><!-- Mon code ici pour la navbar -->
 
       <img class="logo-top" src="images/top-logo.png" alt="logo" title="logo" width="226px" height="35px">
 
@@ -33,9 +34,11 @@
         <li><a href="#get-involved">GET INVOLVED</a></li>
       </ul>
 
-    </nav>
+      </nav>
 
-
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fas fa-bars fa-lg"></i>
+      </a>
 
     <div id="home">  <!-- Mon code ici pour le jumbotron-->
 
@@ -48,8 +51,8 @@
 
     </div>
 
-<div id="htr">
-  
+
+
     <div id="who"><!-- Mon code ici  pour la div qui sommes nous-->
 
       <center><img src="images/academy-brand-med.png" alt="Blason" titre="Blason" width="150px" height="150px" class="blason"></center>
@@ -98,19 +101,34 @@
       </div>
 
   </div>
-    </div><!-- /#get-involved -->
+  </div><!-- /#get-involved -->
 
   </div>
 
     <footer><!-- Mon code ici pour le footer-->
 
-      <img src="images/one-million-bottom-brand.png" alt="logo" title="logo" width="356px" height="47px">
+      <img src="images/one-million-bottom-brand.png" alt="logo" title="logo" width="356px" height="60px">
+
+      <div id="back-to-top"><!-- Mon code ici  pour le bouton retour haut de la page-->
+
+        <a href="#nav"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
+      </div><!-- /#back-to-top -->
 
     </footer>
 
-    <div id="back-to-top">
-      <!-- Votre code ici -->
-    </div><!-- /#back-to-top -->
+
+
+    <!--   mon essai pour le clic du bouton en media query
+    <script>
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>-->
 
   </body>
 </html>
