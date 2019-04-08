@@ -9,7 +9,7 @@
  La navbar est fixe en haut et le footer reste en bas.
  
  Difficultés rencontrées:
-  > les screenshots sont différents sur le grand écran, donc à vérifier sur l'écran du PC d'abord.
-  > la fameuse navbar pour écran portable. 
-  > gérer le responsive en-dehors des tailles données par les media query.
+  > Les screenshots sont différents sur le grand écran, donc à vérifier sur l'écran du PC d'abord.
+  > La fameuse navbar pour écran portable. 
+  > Gérer le responsive en-dehors des tailles données par les media query.
  
